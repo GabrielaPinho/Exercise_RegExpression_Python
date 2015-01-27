@@ -1,0 +1,29 @@
+To select the emails in bsp2015.csv:
+grep -o -E ",\w*\.?\w*\.?\w+\@\w+\.\w+\.?\w*\s*," bsp2015.csv > emails.txt 
+
+Ps:",[\w\.]*\w+\@\w+\.\w+[\w\.]*\s*," worked in the text file, but not in the terminal, weird
+
+With this command I created the an file with these contents:
+
+,afk7df@virginia.edu,
+,rmc3u@virginia.edu,
+,lag117@gmail.com,
+,slailvau@uno.edu,
+,telemeco@uw.edu,
+,grossnickle@uchicago.edu,
+,rossc@uchicago.edu,
+,sborstei@vols.utk.edu,
+,pcwainwright@ucdavis.edu,
+,mcgee.matthew@gmail.com,
+,pcwainwright@ucdavis.edu ,
+,alissa.castleberry@furman.edu,
+,alison.roark@furman.edu,
+,maytee.cdj@gmail.com,
+,david.c.blackburn@gmail.com,
+,dr.bob.thacker@gmail.com,
+,rhulett@calacademy.org,
+,David.c.blackburn@gmail.com,
+,sarahcoh@sfsu.edu,
+,sarahcoh@sfsu.edu,
+,boyer@macalester.edu,
+
