@@ -1,0 +1,10 @@
+#Restriction fragment lengths
+
+sequence = "ACTGATCGATTACGTATAGTAGAATTCTATCATACATATATATCGATGCGTTCAT"
+position = sequence.find("GAATTC")
+first_fragment = position +1
+second_fragment = len (sequence)- first_fragment
+
+print("Fragment sizes(bp): "+str(first_fragment)+" and "+ str(second_fragment))
+#output: Fragment sizes(bp): 22 and 33
+
