@@ -1,0 +1,16 @@
+#start with this before anything not to have problems with divisions
+from __future__ import division
+
+#Calculating AT content
+
+sequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+
+A = sequence.count("A")
+T = sequence.count("T")
+
+lenght_sequence = len(sequence)
+proportion = (A+T)/lenght_sequence
+
+print("The proportion of AT in the sequence is " + str(proportion))
+#output: The proportion of AT in the sequence is 0.685185185185 
+
