@@ -1,0 +1,7 @@
+#Splicing out introns, part two
+
+bpcoding = len(exon1+exon2)
+percentage_coding = (bpcoding/len(sequence))*100
+print("The percentage of the coding sequence is "+str(percentage_coding)+"%")
+#output: The percentage of the coding sequence is 78.0487804878%
+
