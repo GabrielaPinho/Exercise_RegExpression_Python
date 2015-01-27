@@ -1,0 +1,10 @@
+#Splicing out introns, part one
+
+sequence = "ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCGATCGATCGATCGATCATGCTATCATCGATCGATATCGATGCATCGACTACTAT"
+exon1 = sequence[0:63]
+#Don't forget that the substring exclude the last character!!!
+exon2 = sequence [90:]
+#x = len(sequence) and sequence[90:x] does not work because of this exclusion of the last character
+print(exon1+exon2)
+#output: ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCATCGATCGATATCGATGCATCGACTACTAT
+
