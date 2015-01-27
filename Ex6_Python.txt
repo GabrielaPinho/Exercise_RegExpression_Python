@@ -1,0 +1,8 @@
+#Splicing out introns, part three
+
+intron = sequence [63:90]
+smallcase = intron.lower()
+#or: intron = my_dna[63:90].lower()
+print(exon1+smallcase+exon2)
+#output: ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGAtcgatcgatcgatcgatcgatcatgctATCATCGATCGATATCGATGCATCGACTACTAT
+
