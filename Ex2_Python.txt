@@ -1,0 +1,11 @@
+#Complementing DNA
+
+sequence = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+a = sequence.replace("A","t")
+b = a.replace("T","a")
+c = b.replace("C","g")
+d = c.replace("G","c")
+
+complementar = d.upper()
+
+print (complementar)
